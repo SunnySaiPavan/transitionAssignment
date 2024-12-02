@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8fafc;
+  }
+  
+  .profile-card {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .avatar {
+    width: 60px;
+    height: 60px;
+    background-color: #d1d5db;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+  }
+  
+  .name {
+    margin: 0;
+    font-size: 18px;
+    color: #111827;
+  }
+  
+  .address {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #6b7280;
+  }
+  
+  .info-section {
+    padding: 20px;
+  }
+  
+  .info-card {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #374151;
+  }
+  
+  .info-row:not(:last-child) {
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .add-row {
+    text-align: center;
+    color: #3b82f6;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .add-row:hover {
+    text-decoration: underline;
+  }
+  
+  .progress {
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 2px 6px;
+  }
+  
+  .progress.yellow {
+    background-color: #fef3c7;
+    color: #d97706;
+  }
+  
+  .progress.green {
+    background-color: #d1fae5;
+    color: #047857;
+  }
+  
+  .assign-agent {
+    padding: 15px 20px;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .assign-btn {
+    background-color: #3b82f6;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .assign-btn:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .assign-btn-2{
+    background-color: yellow;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+  }

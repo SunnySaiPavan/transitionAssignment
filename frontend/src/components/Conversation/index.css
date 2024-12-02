@@ -1,0 +1,116 @@
+.chat-interface {
+    font-family: Arial, sans-serif;
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .tab-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tab {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .escalate-button {
+    margin-left: auto;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .conversation-section {
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .message {
+    margin-bottom: 15px;
+  }
+  
+  .message.received {
+    text-align: left;
+  }
+  
+  .message.sent {
+    text-align: right;
+  }
+  
+  .sender-info {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .sender-name {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .timestamp {
+    margin-left: 5px;
+  }
+  
+  .message-content {
+    margin-top: 5px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  .message.sent .message-content {
+    background-color: #d1ecf1;
+  }
+  
+  .message-input-section {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  .message-input-section input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .send-options {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .send-options label {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .send-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

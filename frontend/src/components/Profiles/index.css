@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8fafc; /* Light background color */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-section {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .role-btn {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .role-btn.yellow {
+    background-color: #facc15; /* Yellow background */
+  }
+  
+  .role-btn.pink {
+    background-color: #ec4899; /* Pink background */
+  }
+  
+  .user-cards {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+    position: relative;
+  }
+  
+  .card.active {
+    border: 2px solid #3b82f6; /* Active state border */
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #d1d5db; /* Gray circle background */
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .name {
+    font-size: 12px;
+    text-align: center;
+    color: #374151;
+  }
+  
+  .notification {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #ef4444; /* Red notification */
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .messaging-btn {
+    background-color: #3b82f6; /* Blue background */
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .logout {
+    border: none;
+    border-radius: 10px;
+    color: #374151;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: yellow;
+  }
+  
+  .search{
+    width: 97%;
+  }
+  
+  .search_container{
+    background-color: white;
+  }
+  
+  .button-home{
+    width: 25px;
+    height: 25px;
+  
+  }
